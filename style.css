@@ -8,15 +8,16 @@ h1 {
 .orange-color {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
   padding-left: 10px;
 }
 .half-width img {
-  width: 65%;
+  width: 60%;
 }
 .link-button {
   text-decoration: none;
@@ -25,4 +26,18 @@ section {
   color: white;
   font-weight: 700px;
   border-radius: 5px;
+}
+.middle-banner {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+p {
+  font-size: 35px;
+}
+.recepie-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
 }
