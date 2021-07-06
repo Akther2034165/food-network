@@ -35,9 +35,44 @@ h1 {
 p {
   font-size: 35px;
 }
-.recepie-item {
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 10px 10px 40px gray;
+.third-section-div1 {
+  text-align: center;
+  padding: 0 10%;
+}
+.third-section-div1 h1 {
+}
+.third-section-div2 {
+  display: flex;
+  margin: 0px 0px 20px 0px;
+  padding-left: 3%;
+}
+.same-class {
+  padding: 10px;
+  margin: 30px;
+  border: 10px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 150px skyblue;
+}
+.img-class {
+  width: 365px;
+  padding: 5px;
+}
+.same-class p {
+  font-size: 12px;
+}
+.last-div {
+  display: flex;
+}
+.amne-aki-rki {
+  box-shadow: 0px 3px 2px gray;
+  align-items: center;
+  padding: 1%;
+  justify-content: space-between;
+  margin-left: 280px;
+}
+.amne-aki-rki p {
+  font-size: 16px;
+}
+.amne-aki-rki h1 {
+  font-size: 25px;
 }
