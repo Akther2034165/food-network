@@ -6,7 +6,7 @@ h1 {
   font-size: 50px;
 }
 .orange-color {
-  color: orange;
+  color: rgb(252, 43, 7);
 }
 .flexible-container {
   display: flex;
@@ -20,83 +20,91 @@ h1 {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(Salmon, Tomato);
-  padding: 10px 40px;
+  background-image: linear-gradient(Red, tomato);
+  padding: 10px 30px;
   color: white;
   font-weight: 700px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
-.middle-banner {
+.about-me {
   background-image: url(images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
   background-position: 0%;
 }
 p {
-  font-size: 35px;
+  font-size: 30px;
 }
-.third-section-div1 {
+.my-recepies {
   text-align: center;
   padding: 0 10%;
 }
-.third-section-div1 h1 {
+.my-recepies h1 {
 }
-.third-section-div1 p {
-  font-size: 28px;
+.my-recepies p {
+  font-size: 20px;
 }
-.third-section-div2 {
+.food-card {
   display: flex;
   margin: 0px 0px 20px 0px;
-  padding-left: 3%;
+  padding-left: 5%;
 }
-.same-class {
+.card {
   padding: 10px;
   margin: 30px;
   border: 10px solid white;
   border-radius: 10px;
-  box-shadow: 10px 10px 150px skyblue;
+  box-shadow: 10px 10px 40px grey;
 }
 .img-class {
   width: 365px;
   padding: 5px;
 }
-.same-class p {
-  font-size: 12px;
+.card p {
+  font-size: 14px;
 }
-.last-div {
+.platform {
   display: flex;
 }
-.amne-aki-rki {
+.types {
   box-shadow: 0px 3px 2px gray;
   align-items: center;
   padding: 1%;
   justify-content: space-between;
   margin-left: 280px;
 }
-.amne-aki-rki p {
+.types p {
   font-size: 16px;
 }
-.amne-aki-rki h1 {
+.types h1 {
   font-size: 25px;
 }
 
-.section3 {
+.status {
   margin-bottom: 100px;
 }
-.food-network {
+.sign-up-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background: white;
+  padding: 20px;
+  margin: 8% auto 0;
   text-align: center;
-  background-image: linear-gradient(rgb(12, 3, 3), rgb(26, 6, 6));
+}
+.footer-part {
+  text-align: center;
+  background-image: linear-gradient(rgb(61, 18, 18), rgb(27, 7, 7));
   margin: 0%;
 }
-.food-network h3 {
+.footer-part h3 {
   font-size: 25px;
   color: aliceblue;
 }
-.food-network p {
+.footer-part p {
   font-size: 20px;
 }
-.food-network p {
+.footer-part p {
   color: aliceblue;
 }
-.food-network span {
-  color: orangered;
+.footer-part span {
+  color: tomato;
 }
